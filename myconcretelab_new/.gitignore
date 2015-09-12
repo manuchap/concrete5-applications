@@ -1,0 +1,5 @@
+#ignore database
+config/database.php
+
+## Ignore cache
+files/cache
