@@ -506,6 +506,28 @@ class Version extends \Concrete\Core\File\Version implements \Doctrine\ORM\Proxy
     /**
      * {@inheritDoc}
      */
+    public function rename($filename)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'rename', array($filename));
+
+        return parent::rename($filename);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function updateContents($contents)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'updateContents', array($contents));
+
+        return parent::updateContents($contents);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
     public function updateFile($filename, $prefix)
     {
 
