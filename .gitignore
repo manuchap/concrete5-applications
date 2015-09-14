@@ -1,5 +1,9 @@
 #ignore database
 database.php
 
-## Ignore cache folder
+## Ignore erro generated files
+*.php-e
+
+## Ignore cache & doctrine folder
 cache/
+doctrine/

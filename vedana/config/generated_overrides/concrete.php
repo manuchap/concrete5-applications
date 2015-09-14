@@ -2,15 +2,15 @@
 
 /**
  * -----------------------------------------------------------------------------
- * Generated 2015-01-23T20:22:54+00:00
+ * Generated 2015-09-14T11:04:20+02:00
  *
- * @item      misc.do_page_reindex_check
+ * @item      version_installed
  * @group     concrete
  * @namespace null
  * -----------------------------------------------------------------------------
  */
 return array(
-    'version_installed' => '5.7.3.1',
+    'version_installed' => '5.7.5.1',
     'cache' => array(
         'blocks' => true,
         'assets' => true,
@@ -18,20 +18,20 @@ return array(
         'overrides' => false,
         'pages' => '0',
         'full_page_lifetime' => 'default',
-        'full_page_lifetime_value' => null
+        'full_page_lifetime_value' => null,
     ),
     'theme' => array(
-        'compress_preprocessor_output' => true
+        'compress_preprocessor_output' => true,
     ),
     'misc' => array(
         'seen_introduction' => true,
         'do_page_reindex_check' => false,
         'access_entity_updated' => 1415199180,
-        'latest_version' => '5.6.3.2'
+        'latest_version' => '5.7.3.1',
     ),
     'debug' => array(
         'detail' => 'debug',
-        'display_errors' => true
+        'display_errors' => true,
     ),
     'seo' => array(
         'url_rewriting' => 1,
@@ -46,7 +46,7 @@ return array(
   ga(\'send\', \'pageview\');
 
 </script>',
-            'code_position' => 'bottom'
-        )
-    )
+            'code_position' => 'bottom',
+        ),
+    ),
 );
