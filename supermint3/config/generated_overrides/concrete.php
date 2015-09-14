@@ -2,9 +2,9 @@
 
 /**
  * -----------------------------------------------------------------------------
- * Generated 2015-09-10T21:19:10+02:00
+ * Generated 2015-09-14T13:42:52+02:00
  *
- * @item      misc.do_page_reindex_check
+ * @item      misc.default_jpeg_image_compression
  * @group     concrete
  * @namespace null
  * -----------------------------------------------------------------------------
@@ -59,9 +59,9 @@ return array(
         'news' => '0',
     ),
     'white_label' => array(
-        'logo' => false,
-        'logo_fid' => '0',
-        'name' => '',
+        'logo' => '/supermint3/application/files/6114/4223/0945/logo-white-label.png',
+        'logo_fid' => '84',
+        'name' => 'SuperCMS',
     ),
     'debug' => array(
         'detail' => 'debug',
