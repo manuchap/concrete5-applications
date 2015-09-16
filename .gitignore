@@ -1,5 +1,8 @@
 #ignore database
 database.php
 
-## Ignore cache 
+## Ignore cache
 cache/
+
+## Ignore languages
+languages/
