@@ -1,0 +1,23 @@
+.mcl-options-wrapper .option {
+	/*border-bottom: 1px solid #ccc;*/
+
+}
+.mcl-options-wrapper .option-name {
+	margin-bottom: 0;
+}
+.mcl-options-wrapper .option-meta {
+	padding-left: 22px;
+	color: #999;
+}
+.mcl-options-wrapper .description {
+	padding-left:22px;
+}
+.mcl-options-wrapper .subsection {
+  background-color: #fbfbfb;
+  padding: 1.4rem;
+  box-shadow: 0 0 3px #ccc;
+}
+.mcl-options-wrapper .subsection h4,
+.mcl-options-wrapper .subsection p {
+	margin: 0
+}
