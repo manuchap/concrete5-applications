@@ -880,17 +880,6 @@ class StyleSet extends \Concrete\Core\StyleCustomizer\Inline\StyleSet implements
     /**
      * {@inheritDoc}
      */
-    public function getClass($theme = NULL)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getClass', array($theme));
-
-        return parent::getClass($theme);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function isHiddenOnDevice($class)
     {
 
